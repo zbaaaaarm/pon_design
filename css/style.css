@@ -291,6 +291,7 @@ td {
     display: none;
   }
   .mobile-nav.active {
+    display: flex;
     opacity: 1;
     transition: 0.3s;
   }
