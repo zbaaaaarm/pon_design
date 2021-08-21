@@ -274,8 +274,6 @@ td {
   align-items: center;
   opacity: 0;
   transition: 0.3s;
-}
-.mobile-nav .global-nav__link {
   pointer-events: none;
 }
 
@@ -294,8 +292,6 @@ td {
     display: flex;
     opacity: 1;
     transition: 0.3s;
-  }
-  .mobile-nav.active .global-nav__link {
     pointer-events: auto;
   }
   .mobile-nav__list {
