@@ -23,7 +23,10 @@ $(function() {
   });
 
   // Swiper
-  var mySwiper = new Swiper ('.swiper-container', {
+  var swiper;
+  swiper = new Swiper ('.swiper-container', {
+    speed: 400,
+    slidesPerView: 1,
     loop: true,
     pagination: {
       el: '.swiper-pagination',
